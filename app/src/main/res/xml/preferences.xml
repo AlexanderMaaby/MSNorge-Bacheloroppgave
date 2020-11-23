@@ -1,0 +1,41 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <PreferenceCategory
+            android:title="@string/apppreference">
+            
+        <SwitchPreference 
+            	android:key="musicpreference"
+                android:summary="@string/instagramsetting"
+            	android:id="@+id/musicsettings"
+            	android:switchTextOff ="@string/off"
+            	android:switchTextOn ="@string/on"/>
+
+    </PreferenceCategory>   
+
+    <PreferenceCategory
+            android:title="@string/test">
+
+        <ListPreference
+            android:id="@+id/languagepicker"
+            android:key="language_preference"
+            android:title="@string/test"
+            android:summary="English"
+            android:entries="@array/listentries"
+            android:entryValues="@array/listvalues" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/test">
+        
+        <Preference
+        	android:id="@+id/deleteuser"
+        	android:key="app_preference"
+        	android:title="@string/deleteuserdata"
+        	android:summary="@string/deleteuserinfo">
+        <intent 
+            android:action="com.example.bachelortestgrounds.DeleteDialog"/>
+ 		</Preference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

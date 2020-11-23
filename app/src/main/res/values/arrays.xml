@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listentries">
+        <item>English</item>
+        <item>Norwegian</item>
+
+    </string-array>
+    <string-array name="listvalues">
+        <item>English</item>
+        <item>Norwegian</item>
+
+    </string-array>      
+</resources>

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bachelortestgrounds.WalkActivity" >
+
+    <Button
+        android:id="@+id/walk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Start walk" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/walk"
+        android:layout_centerVertical="true"
+        android:text="Stop walk" />
+
+    <TextView
+        android:id="@+id/lat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/dummydata3" />
+
+    <TextView
+        android:id="@+id/long2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lat2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/dummydata4" />
+
+    <TextView
+        android:id="@+id/lat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/long2"
+        android:layout_alignBottom="@+id/long2"
+        android:layout_alignLeft="@+id/long1"
+        android:text="@string/dummydata1" />
+
+    <TextView
+        android:id="@+id/long1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lat2"
+        android:layout_alignBottom="@+id/lat2"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/walk"
+        android:text="@string/dummydata2" />
+
+    <Button
+        android:id="@+id/calcdistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/walk"
+        android:layout_below="@+id/stop"
+        android:layout_marginTop="60dp"
+        android:text="Calc dist" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/thedistance"
+        android:layout_below="@+id/thedistance"
+        android:layout_marginTop="16dp"
+        android:text="@string/placeholder" />
+
+    <TextView
+        android:id="@+id/thedistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calcdistance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/placeholder" />
+
+</RelativeLayout>

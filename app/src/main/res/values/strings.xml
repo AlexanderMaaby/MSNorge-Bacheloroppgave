@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BachelorTestGrounds</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="startwalk">Walk game</string>
+    <string name="settings">Settings</string>
+    <string name="stats">Statistics</string>
+    <string name="test">For testing purposes</string>
+    <string name="apppreference">Application settings</string>
+    <string name="weeklyplaceholder">Ukens mål er satt til: 1km</string>
+    <string name="weeklygoalset">Denne ukens mål er: </string>
+    <string name="km">km</string>
+    <string name="deleteuserdata">Delete user data</string>
+    <string name="deleteuserinfo">This will delete all your settings and progress for a fresh start.</string>
+    <string name="positiveyesbutton">Yes</string>
+	<string name="negativenobutton">No</string>
+	<string name="weeklytxt">Weekly progress: </string>
+	<string name="placeholder">0.0</string>
+	<string name="quit">Quit</string>
+	<string name="instagramsetting">Share your walks on Instagram.</string>
+	<string name="on">On</string>
+	<string name="off">Off</string>
+	<string name="detector_prompt">what even is this</string>
+	<string name="dummydata1">59.953180</string>
+    <string name="dummydata2">10.854162</string>
+    <string name="dummydata3">59.953996</string>
+    <string name="dummydata4">10.864848</string>
+     <string-array name="detector_array">
+	<item>Simple threshold</item>
+	</string-array>
+</resources>
